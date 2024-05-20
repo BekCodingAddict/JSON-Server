@@ -13,7 +13,9 @@
      - Make sure you have Node.js installed on your machine. You can download it from the [Node.js official website](https://nodejs.org/en).
      2.  Install json-server:
      - Install json-server globally using npm (Node Package Manager):
-       - ```sh  npm install -g json-server```
+       - ```sh
+            npm install -g json-server
+         ```
      3. Create a JSON File:
      - Create a JSON file (db.json) that will act as your database. For example:
        - ```json
