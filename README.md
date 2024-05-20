@@ -30,4 +30,23 @@
           ]
          }
          ```
+      4. Start json-server:
+      - Run the json-server with the following command:
+        - ```sh
+          json-server --watch db.json
+          ```
+        - This command starts a server and watches the db.json file for changes. By default, json-server 
+          runs on port 3000. You can access your API at http://localhost:3000.
+       5. Using the API:
+       - With the server running, you can perform CRUD operations on your JSON data. Here are some example API endpoints:
+         - GET /posts: Fetch all posts.
+         - GET /posts/1: Fetch the post with id 1.
+         - POST /posts: Add a new post.
+         - PUT /posts/1: Update the post with id 1.
+         - DELETE /posts/1: Delete the post with id 1.
+       6. Custom Routes:
+
+
+
+          
          
