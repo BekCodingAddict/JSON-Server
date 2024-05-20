@@ -1,8 +1,7 @@
 {
   "users": [
     {
-      "fristName": "Jhon",
-      "lastName": "Doe",
+      "userName":"Jhon",
       "email": "jhon@example.com",
       "password": "123456"
     }
