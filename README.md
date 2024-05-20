@@ -45,6 +45,51 @@
          - PUT /posts/1: Update the post with id 1.
          - DELETE /posts/1: Delete the post with id 1.
        6. Custom Routes:
+       - You can create a custom routes file to define more complex routing. Create a routes.json file:
+         - ```json
+           {
+             "/api/": "/",
+             "/api/posts/:id": "/posts/:id"
+           }
+         - Then, start the json-server with the routes file:
+           - ```sh
+             json-server --watch db.json --routes routes.json
+             ```
+        7. Middleware and Customization:
+        - You can add custom middleware to json-server for additional functionality. Create a server.js file:
+          - ```js
+            const jsonServer = require('json-server');
+            const server = jsonServer.create();
+            const router = jsonServer.router('db.json');
+            const middlewares = jsonServer.defaults();
+
+            // Custom middleware example
+            server.use((req, res, next) => {
+              if (req.method === 'POST') {
+              req.body.createdAt = Date.now();
+            }
+              next();
+            });
+
+            server.use(middlewares);
+            server.use(router);
+
+            server.listen(3000, () => {
+            console.log('JSON Server is running on http://localhost:3000');
+            });
+            ```
+          - Run the server using Node.js:
+            - ```sh
+              node server.js
+              ```
+        8. Conclusion:
+        - json-server is a powerful and easy-to-use tool for creating a mock REST API. It is ideal for:
+          - Prototyping and rapid development.
+          - Building front-end applications without a real backend.
+          - Testing and debugging front-end code.
+        - By following the steps above, you can quickly set up a functional REST API based on a simple JSON file, allowing you to focus on developing and testing your front-end applications.
+
+
 
 
 
