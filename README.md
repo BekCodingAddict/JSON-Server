@@ -9,9 +9,9 @@
  - Real-time updates: Watches the JSON file for changes and updates the API in real-time.
 ## How to Set Up and Use json-server:
  - Here’s a step-by-step guide to setting up and using json-server:
-   - 1. Install Node.js:
+    1. Install Node.js:
      - Make sure you have Node.js installed on your machine. You can download it from the [Node.js official website](https://nodejs.org/en).
-   - 2.  Install json-server:
+    2.  Install json-server:
      - Install json-server globally using npm (Node Package Manager):
        - ```sh
             npm install -g json-server
