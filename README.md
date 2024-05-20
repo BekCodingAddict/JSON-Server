@@ -83,12 +83,12 @@
             - ```sh
               node server.js
               ```
-        8. Conclusion:
-        - json-server is a powerful and easy-to-use tool for creating a mock REST API. It is ideal for:
-          - Prototyping and rapid development.
-          - Building front-end applications without a real backend.
-          - Testing and debugging front-end code.
-        - By following the steps above, you can quickly set up a functional REST API based on a simple JSON file, allowing you to focus on developing and testing your front-end applications.
+      8. Conclusion:
+      - json-server is a powerful and easy-to-use tool for creating a mock REST API. It is ideal for:
+         - Prototyping and rapid development.
+         - Building front-end applications without a real backend.
+         - Testing and debugging front-end code.
+      - By following the steps above, you can quickly set up a functional REST API based on a simple JSON file, allowing you to focus on developing and testing your front-end applications.
 
 
 
