@@ -3,8 +3,8 @@
         {
             "fristName":"Jhon",
             "lastName:"Doe",
-            email:"djon@example.com",
-            password:"123456"
+            "email:"djon@example.com",
+            "password":"123456"
         }
     ]
 }
